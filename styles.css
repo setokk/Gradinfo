@@ -2,3 +2,34 @@
     --font-color: antiquewhite;
     --hover-font-color: #816dca;
 }
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+#main {
+    text-align: center;
+}
+
+#yearInput {
+    display: block;
+    color: darkgray;
+    margin: 10px auto;
+}
+
+#searchBtn {
+    display: block;
+    margin: 10px auto;
+}
+
+#outdatedInformationList {
+    list-style-type: none;
+    color: darkgray;
+    padding: 0;
+}
